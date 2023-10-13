@@ -1,4 +1,3 @@
-import React from 'react'
 import { useNavigate } from "react-router";
 import { Button } from "@mui/material";
 import { openSnackbar } from '../redux/snackbar';

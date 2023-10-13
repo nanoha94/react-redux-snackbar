@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router";
 import { AppBar, Toolbar, Box, Button } from "@mui/material";
-import { styled } from "styled-components";
 
 const Header = () => {
   const [navItems, setNavItemms] = useState([
